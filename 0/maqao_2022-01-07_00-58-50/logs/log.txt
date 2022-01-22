@@ -1,0 +1,7 @@
+********************************************************************************
+
+MAQAO 2.14.6 - 6f2949440bb918b7d680937f9c542108ab5a5c3a::20211025-181241 || 2021/10/25
+
+maqao oneview --create-report=one --binary=./nbody.g 
+
+CMD:   /usr/bin/maqao lprof  --xp="/home/aicha/Downloads/nbody3D/0/maqao_2022-01-07_00-58-50/tools/lprof_npsu_run_0" --mpi-command=""   -- /home/aicha/Downloads/nbody3D/0/maqao_2022-01-07_00-58-50/binaries/nbody.g

@@ -1,0 +1,41 @@
+
+* Info: Process launched (host aicha-Vostro-3500, process 19857)
+[1mTotal memory size:[0m 393216 B, 384 KiB, 0 MiB
+
+[1m Step    Time, s Interact/s  GFLOP/s[0m
+    0  8.485e-01  3.164e+08      7.3 *
+    1  8.184e-01  3.280e+08      7.5 *
+    2  8.099e-01  3.314e+08      7.6 *
+    3  8.204e-01  3.272e+08      7.5 
+    4  8.317e-01  3.227e+08      7.4 
+    5  8.183e-01  3.280e+08      7.5 
+    6  8.302e-01  3.233e+08      7.4 
+    7  8.116e-01  3.307e+08      7.6 
+    8  8.281e-01  3.241e+08      7.5 
+    9  8.383e-01  3.202e+08      7.4 
+-----------------------------------------------------
+[1mAverage performance:      [42m       7.5 +- 0.1 GFLOP/s[0m
+-----------------------------------------------------
+
+* Info: Process finished (host aicha-Vostro-3500, process 19857)
+* Info: Dumping samples (host aicha-Vostro-3500, process 19857)
+* Info: Dumping source info for callchain nodes (host aicha-Vostro-3500, process 19857)
+* Info: Building/writing metadata (host aicha-Vostro-3500)
+* Info: Finished collect step (host aicha-Vostro-3500, process 19857)
+
+Your experiment path is /home/aicha/Downloads/nbody3D/0/maqao_2022-01-06_22-21-07/tools/lprof_npsu_run_0
+
+To display your profiling results:
+#################################################################################################
+#    LEVEL    |     REPORT     |                            COMMAND                             #
+#################################################################################################
+#  Functions  |  Cluster-wide  |  maqao lprof -df xp=/home/aicha/Downloads/nbody3D/0/maqao_202  #
+#  Functions  |  Per-node      |  maqao lprof -df -dn xp=/home/aicha/Downloads/nbody3D/0/maqao  #
+#  Functions  |  Per-process   |  maqao lprof -df -dp xp=/home/aicha/Downloads/nbody3D/0/maqao  #
+#  Functions  |  Per-thread    |  maqao lprof -df -dt xp=/home/aicha/Downloads/nbody3D/0/maqao  #
+#  Loops      |  Cluster-wide  |  maqao lprof -dl xp=/home/aicha/Downloads/nbody3D/0/maqao_202  #
+#  Loops      |  Per-node      |  maqao lprof -dl -dn xp=/home/aicha/Downloads/nbody3D/0/maqao  #
+#  Loops      |  Per-process   |  maqao lprof -dl -dp xp=/home/aicha/Downloads/nbody3D/0/maqao  #
+#  Loops      |  Per-thread    |  maqao lprof -dl -dt xp=/home/aicha/Downloads/nbody3D/0/maqao  #
+#################################################################################################
+

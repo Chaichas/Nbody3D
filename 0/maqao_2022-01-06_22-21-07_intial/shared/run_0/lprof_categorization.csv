@@ -1,0 +1,5 @@
+Node;Process;Thread;System (%);Binary (%);MPI (%);Nb Cycle Events;OMP (%);Others (%);String (%);Memory (%);IO (%);Time (s);Math (%);Pthread (%);
+_ALL;_ALL;_ALL;0;100;0;1604;0;0;0;0;0;8.26;0;0;
+aicha-Vostro-3500;_ALL;_ALL;0;100;0;1604;0;0;0;0;0;8.26;0;0;
+aicha-Vostro-3500;19857;_ALL;0;100;0;1604;0;0;0;0;0;8.26;0;0;
+aicha-Vostro-3500;19857;19857;0;100;0;1604;0;0;0;0;0;8.26;0;0;
